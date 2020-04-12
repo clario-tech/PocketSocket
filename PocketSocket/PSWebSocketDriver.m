@@ -770,7 +770,7 @@ typedef NS_ENUM(NSInteger, PSWebSocketDriverState) {
     // close off pmd for zero-length frames that have a buffer otherwise they are orphaned
     if (frame->pmd && frame->payloadLength == 0 && frame->buffer.length > 0) {
         if (![_inflater end:outError]) {
-            return -1;
+            return NO;
         }
     }
     
