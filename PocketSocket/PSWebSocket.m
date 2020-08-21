@@ -595,7 +595,7 @@
     switch(event) {
         case NSStreamEventOpenCompleted: {
             if(_mode != PSWebSocketModeClient) {
-                [NSException raise:@"Invalid State" format:@"Server mode should have already opened streams."];
+                NSLog(@"!!! Catched: Invalid State Description: Server mode should have already opened streams. !!!");
                 return;
             }
             if(_readyState >= PSWebSocketReadyStateClosing) {
