@@ -885,6 +885,7 @@
 				GCC_PREFIX_HEADER = "PocketSocket/PocketSocket-Prefix.pch";
 				INSTALL_PATH = "@rpath";
 				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -906,6 +907,7 @@
 				GCC_PREFIX_HEADER = "PocketSocket/PocketSocket-Prefix.pch";
 				INSTALL_PATH = "@rpath";
 				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
